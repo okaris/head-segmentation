@@ -21,16 +21,26 @@ In this example, we segment the head from the image using the provided model.
 Photo credit: Photo by <a href="https://unsplash.com/@dolfoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Rodolfo Mari</a> on <a href="https://unsplash.com/photos/red-radio-flyer-trike-on-brown-dried-leaves-2sNnC0zDOBQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 
 ## Installation
-
-1. Install the head-segmentation package:
-```bash
-pip install git+https://github.com/wiktorlazarski/head-segmentation.git
+1. Clone the repository:
+```
+git clone https://github.com/okaris/head-segmentation.git
+cd head-segmentation
 ```
 
-2. Install additional requirements for this project:
-```bash
+2. Create a virtual environment (optional but recommended):
+```
+python -m venv venv
+source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+```
+
+3. Install the required dependencies:
+```
 pip install -r requirements.txt
 ```
+
+Note: Make sure you have the correct CUDA version for PyTorch. The current `requirements.txt` uses CUDA 12.4. If you need a different version, please edit the `requirements.txt` file accordingly.
+
+## Usage
 
 ## Usage
 
