@@ -42,8 +42,6 @@ Note: Make sure you have the correct CUDA version for PyTorch. The current `requ
 
 ## Usage
 
-## Usage
-
 ### Command Line Interface
 
 You can use the script directly from the command line:
